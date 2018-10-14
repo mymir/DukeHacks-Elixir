@@ -1,0 +1,38 @@
+.bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  /* background-color: #1b1e23; */
+  background-color: #8ec394;
+}
+
+.linkitem{
+  display: block;
+  height: 55px;
+  width: 15%;
+  float: left;
+  display: table;
+}
+
+.linkitem:hover{
+  background-color: #6ea074;
+}
+
+.link {
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+a {
+  color: #6ea074;
+}
+
+a:hover {
+  color: #8ec394;
+}
